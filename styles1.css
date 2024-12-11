@@ -1,0 +1,65 @@
+
+
+body{
+    margin: 0 auto;
+    height: 200vh;
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(76, 226, 201);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+header.header img{
+    width: 150px;
+    margin-left: 20px;
+}
+
+section.top-page{
+    background: url("images/bgg.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+}
+/* page de bienvenue */
+.big-title{
+    color: white;
+    font-size: 80px;
+    padding: 50px 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.small-title{
+    color: rgb(240, 143, 202);
+    font-size: 40px;
+    margin-left: 50px;
+    
+    
+}
+
+/* menu de navigatio */
+nav.nav{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.title{
+    padding: 20px;
+}
+nav.nav li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.title{
+    color: rgb(247, 132, 203);
+    font-size: 30px;
+
+}
