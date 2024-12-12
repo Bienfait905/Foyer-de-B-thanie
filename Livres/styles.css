@@ -1,0 +1,99 @@
+
+
+body{
+    margin: 0 auto;
+    
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(76, 226, 201);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+header.header img{
+    width: 150px;
+    margin-left: 20px;
+}
+
+section.top-page{
+    background: url("../images/Bible.jpeg");
+    background-size: cover;
+    height: 90vh;
+    padding: 5px;
+}
+
+
+/* menu de navigatio */
+nav.nav{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.title{
+    padding: 20px;
+}
+nav.nav li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.title{
+    color: thistle;
+    font-size: 30px;
+
+}
+
+div.div{
+    color: rgb(252, 250, 250);
+    margin-left: 5px;
+    font-size: 30px;
+    padding: 150px;
+}
+
+footer{
+    display: flex;
+    padding-top: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px
+}
+footer a{
+    text-decoration: none;
+}
+
+nav.seed{
+    padding-top: 100px;
+    align-items: center;
+    margin: 50;
+    margin-left: 50px;
+    color: aquamarine;
+    font-size: 30px;
+    text-decoration: none;
+}
+.Etude{
+    color: black;
+}
+.Bible{
+    color: black;
+}
+
+.goodseed{
+    color: aquamarine;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.emmaus{
+    color: aquamarine;
+    text-decoration: none;
+    padding-top: 30px;
+    text-decoration: none;
+}
